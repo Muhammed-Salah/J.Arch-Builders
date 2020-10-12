@@ -767,6 +767,22 @@
   }
 }
 
+.about-founder {
+  background: url(../img/founder.png) no-repeat center;
+  // background-size: cover;
+  height: 330px;
+  .overlay-bg {
+    background: #04091e;
+    opacity: 0.8;
+  }
+  .play-btn {
+    z-index: 2;
+  }
+  @media (max-width: 960px) {
+    margin-top: 100px;
+  }
+}
+
 //--------- End about-video Area -------------//
 
 //--------- Start project detials Area -------------//

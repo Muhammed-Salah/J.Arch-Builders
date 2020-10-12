@@ -2624,6 +2624,23 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 100px;
   }
 }
+.about-founder {
+  background: url(../img/founder.png) no-repeat center;
+  /* background-size: cover; */
+  height: 330px;
+}
+.about-founder .overlay-bg {
+  background: #04091e;
+  opacity: 0.8;
+}
+.about-founder .play-btn {
+  z-index: 2;
+}
+@media (max-width: 960px) {
+  .about-founder {
+    margin-top: 100px;
+  }
+}
 @media (max-width: 991px) {
   .project-details-right {
     margin-top: 50px;
